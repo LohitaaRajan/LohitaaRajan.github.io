@@ -30,16 +30,18 @@ $(function () {
     toggleGrid();
 
     // TODO 2 - Create Platforms
-    createPlatform(250, 625, 150, 50, "Dark Blue");
-    createPlatform(450, 525, 150, 50, "Dark Blue");
-    createPlatform(650, 425, 150, 50, "Dark Blue");
-    createPlatform(875, 525, 150, 50, "Dark Blue");
-    createPlatform(1100, 425, 150, 50, "Dark Blue");
-    createPlatform(875, 315, 150, 50, "Dark Blue"); 
-    createPlatform(100, 200, 700, 50, "Dark Blue");
-    createPlatform(175, 100, 50, 15, "Dark Blue");
+    createPlatform(250, 625, 150, 50, "midnightblue");
+    createPlatform(450, 525, 150, 50, "midnightblue");
+    createPlatform(650, 425, 150, 50, "midnightblue");
+    createPlatform(875, 525, 150, 50, "midnightblue");
+    createPlatform(1100, 425, 150, 50, "midnightblue");
+    createPlatform(875, 315, 150, 50, "midnightblue");
+    createPlatform(100, 200, 700, 50, "midnightblue");
+    createPlatform(175, 100, 50, 15, "midnightblue");
+    createPlatform(1110, 625, 150, 50, "midnightblue");
 
     // TODO 3 - Create Collectables
+    createCollectable("database", 180, 1, 0.2);
 
     // TODO 4 - Create Cannons
 
