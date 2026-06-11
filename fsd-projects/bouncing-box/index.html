@@ -84,7 +84,7 @@
       function update() {
         moveBoxTo(200); // Moves box to x-position 200
         moveBoxTo(boardWidth); // Moves box to right edge
-        positionX += 10;
+        positionX = positionX + 10;
         moveBoxTo(positionX);
 
 
@@ -99,7 +99,7 @@
        */
       function handleBoxClick() {
         positionX = 0;
-        changeBoxText(0);
+        changeBoxText() = 0;
 
 
 
